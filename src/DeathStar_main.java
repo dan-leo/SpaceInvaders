@@ -79,6 +79,10 @@ public class DeathStar_main {
 	int lives = level;
 
 	long time = 0;
+	
+	// these variables are used in saving screenshots
+	private boolean save_button_ready = true; 
+	private int fileNumber = 9;
 
 	public DeathStar_main() {
 		StdDrawModified.setCanvasSize(canvas_x, canvas_y);
@@ -152,6 +156,16 @@ public class DeathStar_main {
 		}
 		if (StdDrawModified.isKeyPressed(KeyEvent.VK_Q)) {
 			System.exit(0);
+		}
+		if (StdDrawModified.isKeyPressed(KeyEvent.VK_CONTROL) && StdDrawModified.isKeyPressed(KeyEvent.VK_S)){
+			if (save_button_ready){
+				StdDrawModified.save("./screenshots/screenshot-" + fileNumber + ".png");
+				fileNumber++;
+			}
+			save_button_ready = false;
+		}
+		else{
+			save_button_ready = true;
 		}
 	}    
 
