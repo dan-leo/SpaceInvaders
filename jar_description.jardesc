@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="DarthInvaders/SpaceInvaders_v1.0.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/DarthInvaders/jar_description.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=DarthInvaders/src&lt;{DeathStar_main.java[DeathStar_main" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <folder path="/DarthInvaders/backgrounds"/>
+        <folder path="/DarthInvaders/laser_sounds"/>
+        <file path="/DarthInvaders/README.md"/>
+        <javaElement handleIdentifier="=DarthInvaders/src"/>
+        <file path="/DarthInvaders/_project"/>
+        <file path="/DarthInvaders/.classpath"/>
+        <file path="/DarthInvaders/Chupathingy.wav"/>
+        <folder path="/DarthInvaders/fighters"/>
+        <file path="/DarthInvaders/LICENSE"/>
+        <file path="/DarthInvaders/Piano.wav"/>
+        <file path="/DarthInvaders/_classpath"/>
+        <file path="/DarthInvaders/.project"/>
+        <file path="/DarthInvaders/boom.wav"/>
+        <folder path="/DarthInvaders/enemy_sprites"/>
+    </selectedElements>
+</jardesc>
