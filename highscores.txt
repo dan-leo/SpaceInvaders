@@ -1,0 +1,4 @@
+John 150
+Dave 230
+Clarisse 245
+Bob 190
