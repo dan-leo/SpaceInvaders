@@ -13,8 +13,6 @@ The more lasers.. well.. the merrier.
 
 ![gameplay-screenshot](screenshots/screenshot-8.png)
 
-I wonder if your pc can handle it?
-
 ![gameplay-screenshot](screenshots/screenshot-5.png)
 
 I've also added some 8-bit music, and a piano piece of my own.
